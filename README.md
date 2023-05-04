@@ -1,4 +1,4 @@
-# bank demo
+# money-balance-system
 
 ## Overview
 
@@ -13,7 +13,7 @@ And Alice will be prevented from withdrawing $11 to prevent her balance going ne
 
 ## Prerequisites
 
-- jdk178
+- jdk18
 - maven
 - lombok
 - spring-boot
@@ -23,13 +23,6 @@ And Alice will be prevented from withdrawing $11 to prevent her balance going ne
 1. 
 
 ## Input
-
-
-## Business rules
-
-
-### Rules
-
 
 ## Output
 
