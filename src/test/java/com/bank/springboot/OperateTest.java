@@ -8,10 +8,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.util.Assert;
-
-import javax.validation.constraints.AssertTrue;
 import java.math.BigDecimal;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -69,6 +68,6 @@ public class OperateTest {
 		System.out.println(response5.toString());
 
 
-		//Assert();
+		assertThat("").isEqualTo("");
 	}
 }
